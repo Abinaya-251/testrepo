@@ -4,4 +4,3 @@ COPY package*.json ./
 RUN npm install --force
 COPY . .
 CMD [ "node", "index.js" ]
-EXPOSE 5000
