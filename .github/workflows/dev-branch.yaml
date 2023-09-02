@@ -19,7 +19,7 @@ jobs:
         run: cd backend && npm install --force
         
       - name: Install frontend dependencies
-        run: cd frontent && npm install --force
+        run: cd frontend && npm install --force
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
